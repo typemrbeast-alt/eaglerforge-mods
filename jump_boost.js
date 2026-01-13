@@ -1,5 +1,5 @@
 let height = 0;
-let maxJumpHeight = 3;
+let maxJumpHeight = 50;
 document.addEventListener('keydown', function(event) {
   if (event.code == 'Space' && ModAPI.mcinstance.$currentScreen === null) {
     if (height < maxJumpHeight) {
